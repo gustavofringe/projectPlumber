@@ -28,4 +28,19 @@ header table {
   header table td {
     padding-bottom: 10px; }
 
+/*
+*
+*
+*############################ nav
+*
+*
+*/
+nav {
+  text-align: center;
+  background-color: #E6EE9C; }
+  nav a {
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 35px; }
+
 /*# sourceMappingURL=style.css.map */
