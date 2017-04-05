@@ -42,8 +42,13 @@ nav {
   color: #0091EA;
   background-color: #E6EE9C; }
   nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     padding: 0; }
     nav ul li {
@@ -71,9 +76,6 @@ main h2 {
 main article {
   width: 300px;
   margin: 0 auto; }
-  main article .img {
-    background: url("../img/water.jpg");
-    float: left; }
 
 /*
 *
@@ -95,7 +97,8 @@ footer {
 *
 */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  html, body {
+  body,
+  html {
     font-size: 16px; }
 
   header img {
@@ -107,7 +110,9 @@ footer {
 
   main article {
     width: 600px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+    main article img {
+      float: left; } }
 /*
 *
 *############################ pc format
@@ -121,8 +126,16 @@ footer {
     header table {
       margin-left: 300px; }
       header table td {
-        padding-bottom: 25px; }
-    header nav a {
-      height: 180px; } }
+        padding-bottom: 35px; }
+
+  nav a {
+    height: 180px; }
+
+  main {
+    font-size: 18px; }
+    main article {
+      width: 800px; }
+      main article img {
+        float: left; } }
 
 /*# sourceMappingURL=style.css.map */
