@@ -19,8 +19,8 @@
         <img src="../webroot/img/logo_mario.png" alt="" style="height:200px">
         <table>
             <tr>
-                <td>Adresse :</td>
-                <td></td>
+                <td>Adresse: </td>
+                <td>Rue jean Minet Lomme</td>
             </tr>
             <tr>
                 <td>Téléphone: </td>
@@ -40,6 +40,23 @@
         </ul>
 
     </nav>
+    <section class="contact">
+      <div id="map"></div>
+
+        <form action="#">
+            Nom: <input type="text"> Email: <input type="text"> Téléphone: <input type="text">
+            <input type="submit" value="Envoyer" class="confirm" onclick="alert('Un conseiller vous contactera prochainement');">
+        </form>
+
+          <h2>Nous contacter</h2>
+
+
+    </section>
+
+
 </body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0zZCpLabRlisarVr9Gepq-vJmO8ErIHI&callback=initMap" async defer></script>
+<script type="text/javascript" src="../webroot/js/app.js"></script>
 
 </html>

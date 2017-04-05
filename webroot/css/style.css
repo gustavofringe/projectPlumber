@@ -54,7 +54,7 @@ nav {
     nav ul li {
       list-style-type: none;
       height: 35px;
-      width: 50px;
+      width: 75px;
       padding-top: 15px;
       text-align: center; }
       nav ul li:hover {
@@ -92,6 +92,41 @@ footer {
 /*
 *
 *
+*############################### contact.html
+*
+*
+*
+*/
+#map {
+  height: 400px;
+  width: 376px; }
+
+.contact form {
+  width: auto; }
+.contact input {
+  display: table;
+  width: 600px;
+  height: 30px;
+  border: none;
+  border-bottom-style: inset;
+  border-radius: 4px solid #424242;
+  margin-bottom: 25px;
+  padding-left: 10px; }
+.contact input:focused {
+  background-color: #e2e2e2; }
+.contact input:hover {
+  background-color: #c3c4c2; }
+.contact .confirm {
+  width: 80px;
+  height: 30px;
+  background-color: #1976D2;
+  border-radius: 2px;
+  margin-top: 10px;
+  color: #E0E0E0; }
+
+/*
+*
+*
 *############################## tablet format
 *
 *
@@ -112,7 +147,14 @@ footer {
     width: 600px;
     margin: 0 auto; }
     main article img {
-      float: left; } }
+      float: left; }
+
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; } }
 /*
 *
 *############################ pc format
