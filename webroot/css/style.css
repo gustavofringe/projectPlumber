@@ -37,14 +37,26 @@ header table {
 *
 */
 nav {
+  height: 50px;
   margin: 30px 0;
-  text-align: center;
   color: #0091EA;
   background-color: #E6EE9C; }
-  nav a {
-    text-decoration: none;
-    cursor: pointer;
-    padding-right: 35px; }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0; }
+    nav ul li {
+      list-style-type: none;
+      height: 35px;
+      width: 50px;
+      padding-top: 15px;
+      text-align: center; }
+      nav ul li:hover {
+        background-color: #0091EA; }
+      nav ul li a {
+        text-decoration: none;
+        cursor: pointer; }
 
 /*
 *
@@ -59,6 +71,9 @@ main h2 {
 main article {
   width: 300px;
   margin: 0 auto; }
+  main article .img {
+    background: url("../img/water.jpg");
+    float: left; }
 
 /*
 *
@@ -70,7 +85,7 @@ footer {
   width: 259px;
   height: 194px;
   margin: 0 auto;
-  background: url("../img/water.jpg"); }
+  /*background: url("../img/water.jpg");*/ }
 
 /*
 *
@@ -93,5 +108,21 @@ footer {
   main article {
     width: 600px;
     margin: 0 auto; } }
+/*
+*
+*############################ pc format
+*
+*
+*/
+@media screen and (min-width: 1024px) {
+  header {
+    width: 1000px;
+    margin: 0 auto; }
+    header table {
+      margin-left: 300px; }
+      header table td {
+        padding-bottom: 25px; }
+    header nav a {
+      height: 180px; } }
 
 /*# sourceMappingURL=style.css.map */
