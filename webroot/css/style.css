@@ -37,7 +37,7 @@ header table {
 *
 */
 nav {
-  margin: 30px 0 30px 0;
+  margin: 30px 0;
   text-align: center;
   color: #0091EA;
   background-color: #E6EE9C; }
@@ -45,5 +45,19 @@ nav {
     text-decoration: none;
     cursor: pointer;
     padding-right: 35px; }
+
+/*
+*
+*
+*################################# main of index.html
+*
+*
+*
+*/
+main h2 {
+  text-align: center; }
+main article {
+  width: 300px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
