@@ -161,7 +161,7 @@ footer {
 *
 *
 */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1400px) {
   header {
     width: 1000px;
     margin: 0 auto; }
@@ -178,6 +178,18 @@ footer {
     main article {
       width: 800px; }
       main article img {
-        float: left; } }
+        float: left; }
+
+  #map {
+    width: 700px; }
+
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; }
+    .contact form {
+      width: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
