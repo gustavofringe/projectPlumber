@@ -43,7 +43,12 @@
       <div id="map"></div>
 
         <form action="#">
-            Nom: <input type="text"> Email: <input type="text"> Téléphone: <input type="text">
+            <label for="name">Nom:</label>
+            <input type="text" id="name">
+            <label for="email">Email: </label>
+            <input type="email" id="email">
+            <label for="phone">Téléphone: </label>
+            <input type="tel" id="phone" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$">
             <input type="submit" value="Envoyer" class="confirm" onclick="alert('Un conseiller vous contactera prochainement');">
         </form>
 
