@@ -143,8 +143,10 @@ footer {
 *
 *
 */
-tr, th {
-  border: 1px solid black; }
+table {
+  margin-bottom: 25px; }
+  table tr, table th {
+    border: 1px solid black; }
 
 /*
 *
@@ -153,26 +155,65 @@ tr, th {
 *
 *
 */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 768px) {
   body,
   html {
     font-size: 16px; }
 
-  header img {
-    margin-left: 80px; }
+  /*
+  *
+  *
+  *############################# header
+  *
+  */
+  header .img1 {
+    width: 200px;
+    height: 200px;
+    content: url("../img/logo_mario_m.png"); }
   header table {
     margin-left: 200px; }
     header table td {
       padding-bottom: 45px; }
 
+  /*
+  *
+  *############################# content
+  *
+  *
+  */
   main article {
     width: 600px;
     margin: 0 auto; }
-    main article img {
-      float: left; }
 
-  .contact {
-    display: block; } }
+  /*
+  *
+  *########################## footer
+  *
+  */
+  footer nav {
+    height: 80px; }
+    footer nav ul {
+      height: 60px; }
+      footer nav ul li {
+        height: 80px;
+        padding-bottom: 10px;
+        vertical-align: middle; }
+
+  /*
+  *
+  *
+  *################################ contact.html
+  *
+  */
+  form {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px; }
+    form input {
+      padding-top: 25px; }
+
+  #map {
+    display: inline-block; } }
 /*
 *
 *############################ pc format
