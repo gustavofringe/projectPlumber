@@ -116,22 +116,20 @@ footer {
   height: 400px;
   width: 320px; }
 
-.contact form {
-  width: 320px; }
-.contact input {
+.contact form input {
   display: table;
-  width: 600px;
+  width: 320px;
   height: 30px;
   border: none;
   border-bottom-style: inset;
   border-radius: 4px solid #424242;
   margin-bottom: 25px;
   padding-left: 10px; }
-.contact input:focused {
+.contact form input:focused {
   background-color: #e2e2e2; }
-.contact input:hover {
+.contact form input:hover {
   background-color: #c3c4c2; }
-.contact .confirm {
+.contact form .confirm {
   width: 80px;
   height: 30px;
   background-color: #1976D2;
