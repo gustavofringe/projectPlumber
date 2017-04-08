@@ -190,14 +190,19 @@ table {
   *########################## footer
   *
   */
-  footer nav {
-    height: 80px; }
-    footer nav ul {
-      height: 60px; }
-      footer nav ul li {
-        height: 80px;
-        padding-bottom: 10px;
-        vertical-align: middle; }
+  footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+    footer nav {
+      height: 80px; }
+      footer nav ul {
+        height: 60px; }
+        footer nav ul li {
+          height: 80px;
+          padding-bottom: 10px;
+          vertical-align: middle; }
 
   /*
   *
@@ -216,11 +221,34 @@ table {
     display: inline-block; } }
 /*
 *
+*
+*############################# rate.html
+*
+*/
+main table {
+  border-collapse: collapse;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto; }
+main caption {
+  caption-side: bottom;
+  font-weight: bold;
+  font-style: italic;
+  margin: 4px; }
+main table, main th, main td {
+  border: 1px solid gray; }
+main th, main td {
+  height: 50px;
+  padding: 4px;
+  vertical-align: middle; }
+
+/*
+*
 *############################ pc format
 *
 *
 */
-@media screen and (min-width: 1400px) {
+@media (min-width: 1024px) {
   header {
     width: 1000px;
     margin: 0 auto; }
