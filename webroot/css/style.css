@@ -89,9 +89,20 @@ main article {
 *
 */
 footer {
-  width: 259px;
-  height: 194px;
+  width: 100%;
   margin: 0 auto; }
+  footer nav {
+    height: 60px;
+    margin: 0; }
+    footer nav ul {
+      width: 100%; }
+      footer nav ul li {
+        height: 30px;
+        width: 150px;
+        margin: 0;
+        padding-top: 25px; }
+        footer nav ul li:hover {
+          background-color: inherit; }
 
 /*
 *
@@ -103,10 +114,10 @@ footer {
 */
 #map {
   height: 400px;
-  width: 376px; }
+  width: 320px; }
 
 .contact form {
-  width: auto; }
+  width: 320px; }
 .contact input {
   display: table;
   width: 600px;
