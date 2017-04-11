@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 /.idea
+=======
+/.idea
+Supprimerait .gitignore
+Supprimerait index.html
+Supprimerait pages/
+Supprimerait webroot/
+>>>>>>> 1.0dev
